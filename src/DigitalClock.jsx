@@ -26,9 +26,11 @@ function DigitalClock(){
 
     return(
         <div className="clock-container">
+           
             <div className="clock">
                 <span>{formatTime()}</span>
             </div>
+            <h1>Good things take time</h1>
         </div>
     );
 }
