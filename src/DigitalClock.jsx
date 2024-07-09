@@ -21,7 +21,7 @@ function DigitalClock(){
         const meridiem = hours >= 12 ? "pm" : "am"
 
         hours = hours % 12 || 12;
-        return `${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)} ${meridiem}`
+        return `${hours}:${padZero(minutes)}:${padZero(seconds)} ${meridiem}`
     }
 
     function padZero(number){
